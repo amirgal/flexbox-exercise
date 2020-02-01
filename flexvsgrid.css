@@ -1,3 +1,31 @@
+/* Size of items defined inside items */
+.row {
+    margin: 20px auto;
+    max-width: 300px;
+    display: flex;
+}
+
+.row > div {
+    border: 1px dashed gray;
+    flex: 1 1 auto; 
+    text-align: center;
+    padding: 12px;
+}
+
+ /* Size of items defined inside container */
+/* .row {
+    margin: 20px auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row div {
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+} */
+
 /* Flexbox row styles */
 .row-flex {
     margin: 40px auto;
